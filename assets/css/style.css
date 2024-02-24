@@ -1,0 +1,81 @@
+:root {
+  /* primary colors */
+  --Purple: hsl(259, 100%, 65%);
+  --Light-red: hsl(0, 100%, 67%);
+
+  /* neutral */
+  --White: hsl(0, 0%, 100%);
+  --Off-white: hsl(0, 0%, 94%);
+  --Light-grey: hsl(0, 0%, 86%);
+  --Smokey-grey: hsl(0, 1%, 44%);
+  --Off-black: hsl(0, 0%, 8%);
+
+  /* font size */
+  --input-size: 32px;
+}
+
+/* start fonts */
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-regular-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.poppins-extrabold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+/* end fonts */
+
+input {
+  width: 150px;
+  height: 50px;
+  border: 1px solid var(--Light-grey);
+  padding: 10px;
+  font-size: 32px;
+  color: var(--light-grey);
+}
+.button {
+  width: 80%;
+  border-radius: 50%;
+  height: 70px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+h2 {
+  font-size: 80px;
+}
+span {
+  color: var(--Purple);
+  font-size: 85px;
+}
+
+@media (max-width: 992px) {
+  .button {
+    margin: 10px 0px !important;
+  }
+}
+@media (max-width: 620px) {
+  input {
+    width: 100%;
+    margin: 10px 0px !important;
+  }
+  .inputs {
+    flex-wrap: wrap !important;
+  }
+}
+@media (max-width: 465px) {
+  span {
+    display: block;
+    width: 100%;
+  }
+}

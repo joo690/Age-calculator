@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Age calculator app</title>
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="./assets/vendors/Bootstrap/bootstrap.min.css"
+    />
+
+    <!-- main style file -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+
+  <body>
+    <div class="container pt-5">
+      <div class="inputs d-flex justify-content-center mt-5 pt-5">
+        <input
+          type="number"
+          class="day poppins-bold"
+          name="day"
+          placeholder="DD"
+        />
+        <input
+          type="number"
+          class="month poppins-bold mx-3"
+          name="month"
+          placeholder="MM"
+        />
+        <input
+          type="number"
+          class="year poppins-bold"
+          name="year"
+          placeholder="YYYY"
+        />
+      </div>
+
+      <div class="button d-flex justify-content-end">
+        <button class="btn btn-primary">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="46"
+            height="44"
+            viewBox="0 0 46 44"
+          >
+            <g fill="none" stroke="#FFF" stroke-width="2">
+              <path
+                d="M1 22.019C8.333 21.686 23 25.616 23 44M23 44V0M45 22.019C37.667 21.686 23 25.616 23 44"
+              />
+            </g>
+          </svg>
+        </button>
+      </div>
+
+      <div class="data text-center">
+        <h2 class="poppins-extrabold-italic">
+          <span class="poppins-regular-italic mx-3">--</span>Years
+        </h2>
+        <h2 class="poppins-extrabold-italic">
+          <span class="poppins-regular-italic mx-3">--</span>Months
+        </h2>
+        <h2 class="poppins-extrabold-italic">
+          <span class="poppins-regular-italic mx-3">--</span>Days
+        </h2>
+      </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <link rel="stylesheet" href="./assets/vendors/Bootstrap/bootstrap.min.js" />
+    <!-- main script file -->
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
